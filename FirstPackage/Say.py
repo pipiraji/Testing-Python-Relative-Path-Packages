@@ -1,3 +1,4 @@
+import sys
 
 from .Hello import *
 from .Hi import *
@@ -15,4 +16,6 @@ class Say:
         print(__name__)
         print(__package__)
         print(__file__)
+
         print("---------------------------------")
+        sys.exit()
